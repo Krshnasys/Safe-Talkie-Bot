@@ -1,0 +1,11 @@
+{
+    "telegram_api_id": "YOUR_API_ID",
+    "telegram_api_hash": "YOUR_API_HASH",
+    "telegram_bot_token": "YOUR_BOT_TOKEN",
+    "DELETE_URLS": true,
+    "ADMINS": [123456789, 987654321],
+    "USE_AUTH": true,
+    "AUTH_GROUPS": [-1001234567890],
+    "MEMORY_THRESHOLD": 450,
+    "MESSAGE_RATE_LIMIT": 100
+}

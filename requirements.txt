@@ -1,0 +1,4 @@
+Pyrogram
+psutil
+tgcrypto
+jsonschema
