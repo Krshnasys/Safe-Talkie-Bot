@@ -24,7 +24,7 @@ async def start(client: Client, message: Message, config, metrics):
             return
         if message.chat.type == ChatType.PRIVATE or (config.use_auth and message.chat.id not in config.auth_groups):
             buttons = InlineKeyboardMarkup([
-                [InlineKeyboardButton("Source Code", url="https://github.com/Krshnasys/Group-Manager-Bot")]
+                [InlineKeyboardButton("Source Code", url="https://github.com/Krshnasys/Safe-Talkie-Bot")]
             ])
             await client.send_message(message.chat.id, Scripts.UNAUTHORIZED_GROUP_TXT, reply_to_message_id=None, reply_markup=buttons)
             metrics.increment_error_count()
