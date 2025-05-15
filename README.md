@@ -1,17 +1,10 @@
 # Safe Talkie Bot
 
-Safe Talkie Bot is a simple Telegram bot that removes abusive messages and links from groups to keep them clean and safe. With admin-only commands and robust filtering, it ensures a respectful chat environment.
+Safe Talkie Bot is a simple Telegram bot that removes abusive messages and links from groups to keep them clean and safe.
 
-## 🚀 Deployment Guide
+## Deployment Guide
 
 Follow these steps to deploy Safe Talkie Bot on Heroku.
-
-### Prerequisites
-
-- Python 3.13+ ([Download](https://www.python.org/downloads/))
-- Telegram Bot Token from [BotFather](https://t.me/BotFather)
-- Heroku Account ([Sign Up](https://signup.heroku.com/))
-- Git installed
 
 ### Steps
 
@@ -40,9 +33,6 @@ Follow these steps to deploy Safe Talkie Bot on Heroku.
        "memory_threshold": 512
      }
      ```
-   - Get `api_id` and `api_hash` from [my.telegram.org](https://my.telegram.org).
-   - Add bad words to `bad_words.txt` (one per line, e.g., `exchange`).
-
 4. **Set Up Heroku**:
    ```bash
    heroku login
@@ -56,11 +46,3 @@ Follow these steps to deploy Safe Talkie Bot on Heroku.
    git push heroku main
    heroku ps:scale worker=1
    ```
-
-6. **Verify**:
-   - Check logs: `heroku logs --tail`
-   - Test `/start` as an admin in PM or `/id` in an authorized group.
-
-## 📜 License
-
-MIT License. See [LICENSE](LICENSE) for details.
