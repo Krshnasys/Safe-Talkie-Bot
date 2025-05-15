@@ -1,9 +1,5 @@
 # Safe Talkie Bot
 
-![Safe Talkie Bot](https://img.shields.io/badge/Safe%20Talkie%20Bot-v1.0-blue?style=flat-square)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python](https://img.shields.io/badge/Python-3.13-blue)](https://www.python.org/)
-
 Safe Talkie Bot is a simple Telegram bot that removes abusive messages and links from groups to keep them clean and safe. With admin-only commands and robust filtering, it ensures a respectful chat environment.
 
 ## 🚀 Deployment Guide
